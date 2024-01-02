@@ -9,30 +9,28 @@
   <body>
     <header>
       <div class="navBar">
-        <button>Again!</button>
+        <button class="btn again">Again!</button>
         <p>&lt;Between 1 and 20&gt;</p>
       </div>
-      <h1>Guess My Number!</h1>
+      <h1 class="guessMyNumberText">Guess My Number!</h1>
       <hr />
-      <div class="guessedNumber">
-        <h2>?</h2>
-      </div>
+      <div class="guessedNumber">?</div>
     </header>
     <main>
       <div class="mainGuess">
         <div class="inputGuess">
-          <input id = "numberTyped" type="text" />
-          <button>Check!</button>
+          <input id="numberTyped" type="number" />
+          <button class="btn check">Check!</button>
         </div>
         <div class="guessingDiv">
-          <p>Start guessing...</p>
+          <p class="guessText">Start guessing...</p>
           <div class="scoredItems">
             <i></i>
-            <p>Score:</p>
+            <p class="score-label">Score: <span class="score">20</span></p>
           </div>
           <div class="scoredItems">
             <i></i>
-            <p>Highscore:</p>
+            <p>Highscore: <span class="highScore">0</span></p>
           </div>
         </div>
       </div>

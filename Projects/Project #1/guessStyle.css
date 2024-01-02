@@ -9,6 +9,10 @@ body {
   font-weight: bolder;
 }
 
+.guessMyNumberText {
+  color: white;
+}
+
 .navBar button {
   background-color: white;
   border: none;
@@ -94,7 +98,6 @@ header h1 {
   font-size: large;
 }
 
-#numberTyped
-{
+#numberTyped {
   color: white;
 }
