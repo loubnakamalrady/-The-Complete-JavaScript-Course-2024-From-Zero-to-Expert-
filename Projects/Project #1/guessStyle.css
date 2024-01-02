@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: bolder;
+}
+
+.navBar button {
+  background-color: white;
+  border: none;
+  height: 40px;
+  width: 100px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+header hr {
+  margin-top: 12%;
+}
+
+.guessedNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  color: black;
+  font-size: 7em;
+  position: absolute;
+  top: 27%;
+  left: 43.5%;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.mainGuess {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 65%;
+  left: 28.5%;
+  color: white;
+}
+
+.inputGuess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputGuess input {
+  padding-top: 2.5em;
+  width: 190px;
+  margin-bottom: 2em;
+  height: 30px;
+  align-items: center;
+  background-color: black;
+  border: solid white;
+  border-radius: 0.1em;
+}
+
+.inputGuess button {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.scoredItems {
+  display: flex;
+  margin-bottom: -35px;
+  padding: 0;
+}
+
+.guessingDiv p {
+  margin-top: 30px;
+}
+
+.guessingDiv {
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+#numberTyped
+{
+  color: white;
+}

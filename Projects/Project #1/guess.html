@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="guessStyle.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="guessStyle.css" />
+    <title>Guess My Number!</title>
+  </head>
+  <body>
     <header>
+      <div class="navBar">
         <button>Again!</button>
         <p>&lt;Between 1 and 20&gt;</p>
+      </div>
+      <h1>Guess My Number!</h1>
+      <hr />
+      <div class="guessedNumber">
+        <h2>?</h2>
+      </div>
     </header>
+    <main>
+      <div class="mainGuess">
+        <div class="inputGuess">
+          <input id = "numberTyped" type="text" />
+          <button>Check!</button>
+        </div>
+        <div class="guessingDiv">
+          <p>Start guessing...</p>
+          <div class="scoredItems">
+            <i></i>
+            <p>Score:</p>
+          </div>
+          <div class="scoredItems">
+            <i></i>
+            <p>Highscore:</p>
+          </div>
+        </div>
+      </div>
+    </main>
     <script src="guessMyNumber.js"></script>
-</body>
+  </body>
 </html>
